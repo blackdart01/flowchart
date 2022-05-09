@@ -1,0 +1,87 @@
+/* :root{
+    --line-width:2px;
+    --line-height:25px;
+    --block-width:100px;
+    --block-height:50px;
+    --addBlock-width:30px;
+    --addBlock-height:30px;
+    --margin-left:150px;
+}
+
+.container{
+    width: 400px;
+}
+.block {
+    margin: 25px 0 0 var(--margin-left);
+    width: var(--block-width);
+    height: var(--block-height);
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    background-color: darkcyan;
+}
+.blockk{
+    margin: 25px 0 0 -var(--margin-left);
+    width: var(--block-width);
+    height: var(--block-height);
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    background-color: darkcyan;
+}
+.line{
+    margin: 0 0 0 var(--margin-left);
+    width: var(--line-width);
+    height: var(--line-height);
+    position:relative;
+    left: calc(var(--block-width)/2 - var(--line-width));
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    background-color: darkcyan;
+}
+.addBlock{
+    margin: 0 0 0 var(--margin-left);
+    position: relative;
+    left: calc(var(--block-width)/2 - 1/2*var(--addBlock-width) );
+    width: var(--addBlock-width);
+    height: var(--addBlock-height);
+    border-radius: 50%;
+    color: white;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkcyan;
+    cursor:pointer;
+}
+.dragging{
+    opacity: 50%;
+}
+.set{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} */
+
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+/* .inner{
+    margin-top: 10px;
+} */
+a{
+    border: 1px solid red;
+    width: 10%;
+    text-decoration: none;
+    color: #000;
+    padding: 3px 6px;
+    cursor: pointer;
+}
